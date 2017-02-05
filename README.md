@@ -39,6 +39,10 @@ Make sure the Qt (>= 5.4) development libraries are installed:
   + `brew install qt5`
   + `brew link qt5 --force`
 * Or you can download Qt from: https://www.qt.io/download-open-source/
+* On Windows: Use a Qt package that includes MinGW (available since Qt 5.0.1)
+  + On Windows there is no need to install zlib because Tiled
+    can rely on the functions exported from the Qt Core library.
+    see wiki for more details!
 
 Now you can compile by running:
 
