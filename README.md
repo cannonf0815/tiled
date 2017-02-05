@@ -43,6 +43,7 @@ Make sure the Qt (>= 5.4) development libraries are installed:
   + On Windows there is no need to install zlib because Tiled
     can rely on the functions exported from the Qt Core library.
     see wiki for more details!
+    https://github.com/bjorn/tiled/wiki
 
 Now you can compile by running:
 
